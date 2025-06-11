@@ -1,0 +1,10 @@
+[
+  {
+    "modid": "forgeclient",
+    "name": "Forge Client",
+    "description": "Basic Forge 1.8.9 client with ClickGUI.",
+    "version": "1.0",
+    "mcversion": "1.8.9",
+    "modloader": "Forge"
+  }
+]
