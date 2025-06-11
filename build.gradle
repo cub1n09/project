@@ -1,0 +1,25 @@
+buildscript {
+    repositories { jcenter(); maven { url = "https://files.minecraftforge.net/maven" } }
+    dependencies { classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT' }
+}
+apply plugin: 'net.minecraftforge.gradle'
+
+version = "1.0"
+group = "com.example"
+archivesBaseName = "ForgeClient"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+minecraft {
+    version = "1.8.9-11.15.1.2318-1.8.9"
+    runDir = "run"
+    mappings = "stable_22"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
